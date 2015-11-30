@@ -17,13 +17,21 @@ As well as providing a place for people to hone their code skills, it also provi
 
 ## Contributing
 
-## Ideas
+### Ideas
 
 - Open an issue using the proposal/idea label
 
-## Code
+### Code
 
 - Create a branch from master
 - Code
 - Open PR with description and example of feature
 - Do not merge to master directly.
+
+## Deploying
+
+```
+git checkout master
+git pull origin master
+git push heroku master
+```

@@ -2,11 +2,24 @@
   "name": "fendersbot",
   "version": "0.1.0",
   "private": true,
+  "description": "A group project for learning and teaching via a real code base.",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fendersperth/fendersbot.git"
+  },
+  "author": "https://fendersslack.herokuapp.com/",
+  "homepage": "https://github.com/fendersperth/fendersbot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fendersperth/fendersbot/issues"
   },
   "dependencies": {
-    "express": "~4.13.1",
+    "express": "~4.13.3",
     "slack-client": "^1.4.1"
   }
 }
