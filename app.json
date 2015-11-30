@@ -1,0 +1,7 @@
+{
+  "name": "Fenders Bot",
+  "description": "A group project for learning and teaching via a real code base.",
+  "repository": "https://github.com/fendersperth/fendersbot",
+  "keywords": ["node", "express", "slack"],
+  "image": "heroku/nodejs"
+}
