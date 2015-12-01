@@ -1,5 +1,7 @@
 'use strict';
 
+require('dotenv').config({silent: true});
+
 let express = require('express');
 let path = require('path');
 
