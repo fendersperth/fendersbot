@@ -15,6 +15,14 @@ The project is made to allow anyone to propose or implement a new feature and sh
 
 As well as providing a place for people to hone their code skills, it also provides people the ability to work with a team using modern tools such as GitHub issues and Pull Requests.
 
+## Getting started
+
+### Environment variables
+
+Fendersbot makes use of environment variables.  Either set these manually or place them in a .env file in the projects root directory.
+
+See .env.sample for required environment variables. 
+
 ## Contributing
 
 ### Ideas
