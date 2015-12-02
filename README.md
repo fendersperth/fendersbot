@@ -23,6 +23,12 @@ Fendersbot makes use of environment variables.  Either set these manually or pla
 
 See .env.sample for required environment variables. 
 
+### Tests
+
+Test are written using [Mocha](https://mochajs.org/) in [bdd style](https://mochajs.org/#bdd).
+
+Tests can be run with `npm test`.
+
 ## Contributing
 
 ### Ideas
