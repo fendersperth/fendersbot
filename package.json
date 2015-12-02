@@ -32,6 +32,8 @@
     "slack-client": "^1.4.1"
   },
   "devDependencies": {
-    "mocha": "^2.3.4"
+    "jscs": "^2.6.0",
+    "mocha": "^2.3.4",
+    "mocha-jscs": "^4.0.0"
   }
 }
