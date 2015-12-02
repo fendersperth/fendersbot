@@ -4,6 +4,9 @@
   "private": true,
   "description": "A group project for learning and teaching via a real code base.",
   "main": "index.js",
+  "engine": {
+    "node": "4.1.x"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "mocha"

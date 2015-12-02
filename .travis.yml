@@ -1,0 +1,6 @@
+language: node_js
+install: travis_retry npm install
+script: travis_retry npm test
+sudo: false
+node_js:
+    - "4.1.2"
