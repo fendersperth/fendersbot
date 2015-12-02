@@ -18,6 +18,11 @@
   "bugs": {
     "url": "https://github.com/fendersperth/fendersbot/issues"
   },
+  "jscsConfig": {
+    "preset": "airbnb",
+    "esnext": true,
+    "requireTrailingComma": false
+  },
   "dependencies": {
     "dotenv": "^1.2.0",
     "express": "~4.13.3",
