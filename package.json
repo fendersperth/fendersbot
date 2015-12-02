@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "exit 0"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
     "dotenv": "^1.2.0",
     "express": "~4.13.3",
     "slack-client": "^1.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
   }
 }
