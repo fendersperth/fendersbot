@@ -42,6 +42,14 @@ Tests can be run with `npm test`.
 - Open PR with description and example of feature
 - Do not merge to master directly.
 
+#### Style
+
+We have jscs rules in the package.json based on the [airbnb style guide](https://github.com/airbnb/javascript).
+
+The only exception from the airbnb guide is that we have turned off requireTrailingComma.
+
+There are [friendly jscs packages](http://jscs.info/overview#friendly-packages) available for many editing tools.
+
 ## Deploying
 
 ```

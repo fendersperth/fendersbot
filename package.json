@@ -21,12 +21,19 @@
   "bugs": {
     "url": "https://github.com/fendersperth/fendersbot/issues"
   },
+  "jscsConfig": {
+    "preset": "airbnb",
+    "esnext": true,
+    "requireTrailingComma": false
+  },
   "dependencies": {
     "dotenv": "^1.2.0",
     "express": "~4.13.3",
     "slack-client": "^1.4.1"
   },
   "devDependencies": {
-    "mocha": "^2.3.4"
+    "jscs": "^2.6.0",
+    "mocha": "^2.3.4",
+    "mocha-jscs": "^4.0.0"
   }
 }
