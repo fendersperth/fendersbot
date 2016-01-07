@@ -27,12 +27,12 @@
     "requireTrailingComma": false
   },
   "dependencies": {
+    "dotenv": "^1.2.0",
     "botkit": "0.0.5",
     "express": "~4.13.3",
     "require-directory": "^2.1.1"
   },
   "devDependencies": {
-    "dotenv": "^1.2.0",
     "jscs": "^2.6.0",
     "mocha": "^2.3.4",
     "mocha-jscs": "^4.0.0"
