@@ -28,8 +28,9 @@
   },
   "dependencies": {
     "dotenv": "^1.2.0",
+    "botkit": "0.0.5",
     "express": "~4.13.3",
-    "slack-client": "^1.4.1"
+    "require-directory": "^2.1.1"
   },
   "devDependencies": {
     "jscs": "^2.6.0",

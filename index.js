@@ -1,19 +1,4 @@
 'use strict';
-
-require('dotenv').config({silent: true});
-
-let express = require('express');
-let path = require('path');
-
-// Slack
+require('dotenv').config({ silent: true });
 let slack = require('./lib/slack');
-slack.login();
 
-// Express
-let app = express();
-
-app.set('port', process.env.PORT || 5000);
-app.get('/', (req, res) => res.send('hello world'));
-app.listen(app.get('port'), () => {
-  console.log('Application is running on port ' + app.get('port'));
-});
