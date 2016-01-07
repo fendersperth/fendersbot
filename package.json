@@ -29,6 +29,7 @@
   "dependencies": {
     "botkit": "0.0.4",
     "express": "~4.13.3",
+    "require-directory": "^2.1.1",
     "slack-client": "^1.4.1"
   },
   "devDependencies": {
