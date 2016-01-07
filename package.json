@@ -27,7 +27,7 @@
     "requireTrailingComma": false
   },
   "dependencies": {
-    "botkit": "0.0.4",
+    "botkit": "0.0.5",
     "express": "~4.13.3",
     "require-directory": "^2.1.1"
   },
