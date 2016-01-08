@@ -23,33 +23,6 @@ Fendersbot makes use of environment variables.  Either set these manually or pla
 
 See .env.sample for required environment variables. 
 
-### Tests
-
-Test are written using [Mocha](https://mochajs.org/) in [bdd style](https://mochajs.org/#bdd).
-
-Tests can be run with `npm test`.
-
-## Contributing
-
-### Ideas
-
-- Open an issue using the proposal/idea label
-
-### Code
-
-- Create a branch from master
-- Code
-- Open PR with description and example of feature
-- Do not merge to master directly.
-
-#### Style
-
-We have jscs rules in the package.json based on the [airbnb style guide](https://github.com/airbnb/javascript).
-
-The only exception from the airbnb guide is that we have turned off requireTrailingComma.
-
-There are [friendly jscs packages](http://jscs.info/overview#friendly-packages) available for many editing tools.
-
 ## Deploying
 
 ```
@@ -57,3 +30,8 @@ git checkout master
 git pull origin master
 git push heroku master
 ```
+
+## Resources for Newcomers
+
+* [CONTRIBUTING.md](./CONTRIBUTING.md)
+* [Fenders Slack Channel](http://fendersslack.herokuapp.com)
