@@ -29,28 +29,6 @@ Test are written using [Mocha](https://mochajs.org/) in [bdd style](https://moch
 
 Tests can be run with `npm test`.
 
-## Contributing
-
-### Ideas
-
-- Open an issue using the proposal/idea label
-
-### Code
-
-- Create a branch from master
-- Code
-- Open PR with description and example of feature
-- Do not merge to master directly.
-
-#### Style
-
-We have jscs rules in the package.json based on the [airbnb style guide](https://github.com/airbnb/javascript).
-
-The only exception from the airbnb guide is that we have turned off requireTrailingComma.
-
-There are [friendly jscs packages](http://jscs.info/overview#friendly-packages) available for many editing tools.
-
-
 ## Structure
 
 The following will provide a very high level idea of how the bot currently sits together and works. We are using the [Botkit](https://github.com/howdyai/botkit) module for our core functionality. This project is set up as a [Slack app](https://api.slack.com/slack-apps), which means that we require the ability to handle installation in multiple teams and require a web server for auth endpoints.
