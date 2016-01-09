@@ -76,8 +76,6 @@ A response, in our context, is a simple schema to listen for a message using a r
     "ts": "1355517523.000005"
 }
 ```
-
-
 ## Deploying
 
 You must have the correct permissions to deploy. We only deploy master when it is green. Master should always be green!
@@ -87,3 +85,9 @@ git checkout master
 git pull origin master
 git push heroku master
 ```
+
+## Resources for Newcomers
+
+* [CONTRIBUTING.md](./CONTRIBUTING.md)
+* [Fenders Slack Channel](http://fendersslack.herokuapp.com)
+
