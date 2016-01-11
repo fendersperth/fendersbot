@@ -11,7 +11,7 @@
     "start": "node -r babel-core/register -r dotenv/config lib/index.js",
     "prepublish": "babel lib -d dist",
     "serve": "node dist/index.js",
-    "test": "mocha --compilers js:babel-register test/*_test.js test/**/*_test.js"
+    "test": "mocha --compilers js:babel-core/register test/*_test.js test/**/*_test.js"
   },
   "repository": {
     "type": "git",
