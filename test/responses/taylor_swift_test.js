@@ -1,11 +1,11 @@
-const assert = require('assert');
-const sinon = require('sinon');
-const fakeBot = require('../support/fake_bot');
-const stubMessage = require('../support/stub_message');
-const taylorSwift = require('../../lib/slack/responses/taylor_swift');
+import assert from 'assert';
+import sinon from 'sinon';
+import fakeBot from '../support/fake_bot';
+import stubMessage from '../support/stub_message';
+import taylorSwift from '../../lib/slack/responses/taylor_swift';
 
-describe('taylorSwift', function() {
-  it('adds a reaction', function() {
+describe('taylorSwift', () => {
+  it('adds a reaction', () => {
     const spy = sinon.spy(fakeBot.api.reactions, 'add');
     const message = stubMessage('Who likes Taylor Swift?');
     taylorSwift.callback(fakeBot, message);
@@ -17,4 +17,3 @@ describe('taylorSwift', function() {
     });
   });
 });
-

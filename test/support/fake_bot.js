@@ -1,6 +1,6 @@
-function noop() {};
+const noop = () => {};
 
-module.exports = {
+export default {
   say: noop,
   findConversation: noop,
 
