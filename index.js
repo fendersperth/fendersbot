@@ -1,4 +1,5 @@
-'use strict';
-require('dotenv').config({ silent: true });
-let slack = require('./lib/slack');
+require('babel-register');
+require('babel-polyfill');
+require('dotenv/config');
 
+require('./lib/slack');

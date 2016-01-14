@@ -1,4 +1,4 @@
-module.exports = function(text) {
+export default (text) => {
   return {
     type: 'message',
     ts: '1358878749.000002',
