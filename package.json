@@ -22,9 +22,6 @@
     "url": "https://github.com/fendersperth/fendersbot/issues"
   },
   "jscsConfig": {
-    "excludeFiles": [
-      "dist/**"
-    ],
     "preset": "airbnb",
     "esnext": true,
     "requireTrailingComma": false
